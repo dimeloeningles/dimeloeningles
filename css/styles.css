@@ -53,12 +53,17 @@ main .galeria .foto img:hover {
 	transition: all .3s ease;
 }
 
-.lina{
-    background:#fff;
+.lina{ background:#fff;}
+
+.botonLina{
+    background: #4c70f9
+}
+.botonLina:hover{
+    background:#5e80ed;
 }
 
 .footer{
-    background:linear-gradient(217deg, rgba(169, 104, 243, 0.8), rgba(148, 88, 237, 0.922) 70.71%);
+    background:linear-gradient(217deg, rgba(194, 163, 241, 0.922), rgba(84, 5, 174, 0.914) 70.71%);
 }
 .derechos{
     font-size:10px;
