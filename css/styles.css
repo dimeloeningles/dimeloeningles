@@ -1,0 +1,109 @@
+body{
+    margin-top: 90px;
+    background-color: #f2f2f2;
+    font-family: 'Roboto', sans-serif;;
+}
+.navbar{
+    /* background-color: #9079f8; */
+    /* background-color: #779fff; */
+	background:linear-gradient(217deg, rgba(169, 104, 243, 0.8), rgba(127, 78, 200, 0.922) 70.71%);
+}
+
+h1{
+    /* font-family: 'Permanent Marker', cursive; */
+    font-family: 'Kalam', cursive;
+    font-size:50px;    
+    color: #8c58ee;     
+}
+
+.estudiantes{
+    border-radius: 500px 150px 5050px 50px;
+    /* background-color: #e7f6a0e5; */
+    /* background-color: #8c58ee; */
+	background:linear-gradient(217deg, rgba(169, 104, 243, 0.8), rgba(197, 169, 238, 0.922) 70.71%);
+	font-family: 'Kalam', cursive; 
+	/* opacity: 0.7; */
+}
+
+
+/* GALERIA CON OPACIDAD */
+.galeria {
+	width: 100%;
+	/* max-width: 1400px; */
+	margin: auto;
+	overflow: hidden;
+}
+
+main .galeria .foto {
+	width: 10%;
+	float: left;
+}
+
+main .galeria .foto img {
+	vertical-align: top;
+	width: 100%;
+	opacity: 0.5;
+    border-radius: 50%;
+}
+
+main .galeria .foto img:hover {
+	opacity: 1;
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.lina{
+    background:#fff;
+}
+
+.footer{
+    background:linear-gradient(217deg, rgba(169, 104, 243, 0.8), rgba(148, 88, 237, 0.922) 70.71%);
+}
+.derechos{
+    font-size:10px;
+}
+
+/* ANIMACIONES DE LAS FOTOS*/
+@keyframes primera{
+    0%{opacity: 1;}
+    25%{opacity: 0.5;}
+    50%{opacity: 0;}
+    75%{opacity: 0.5;}
+    100%{opacity: 1;}
+}
+.primera{   
+    animation: primera 5s ease infinite;  
+}
+@keyframes segunda{
+    0%{opacity: 1;}
+    25%{opacity: 0.5;}
+    50%{opacity: 0;}
+    75%{opacity: 0.5;}
+    100%{opacity: 1;}
+}
+.segunda{   
+    animation: primera 4s ease infinite;  
+}
+
+@keyframes tercera{
+    0%{opacity: 1;}
+    25%{opacity: 0.5;}
+    50%{opacity: 0;}
+    75%{opacity: 0.5;}
+    100%{opacity: 1;}
+}
+.tercera{   
+    animation: primera 6s ease infinite;  
+}
+
+@keyframes cuarta{
+    0%{opacity: 1;}
+    25%{opacity: 0.5;}
+    50%{opacity: 0;}
+    75%{opacity: 0.5;}
+    100%{opacity: 1;}
+}
+.cuarta{   
+    animation: primera 7s ease infinite;  
+}
